@@ -20,11 +20,7 @@ To write a program to implement the the Logistic Regression Using Gradient Desce
 
 6.Print the Predicted Value
 
-
-
 ## Program:
-```
-/*
 Program to implement the the Logistic Regression Using Gradient Descent.
 Developed by: BHUVANESHWARAN M
 RegisterNumber: 212223080008
@@ -63,13 +59,11 @@ X=dataset.iloc[:,:-1].values
 Y=dataset.iloc[:,-1].values
 
 Y
-
 theta=np.random.randn(X.shape[1])
 y=Y
 
 def sigmoid(z):
     return 1/(1+np.exp(-z))
-
 
 def loss(theta,X,y):
     h=sigmoid(X.dot(theta))
@@ -102,11 +96,9 @@ print("Predicted Result:",y_prednew)
 xnew=np.array([[0,0,0,0,0,2,8,2,0,0,1,0]])
 y_prednew=predict(theta,xnew)
 print("Predicted Result:",y_prednew)
-```
 
 ## Output:
 <img width="1131" height="181" alt="image" src="https://github.com/user-attachments/assets/a912cd76-d3f3-4018-a777-2dd654a2083d" />
-
 
 ## Result:
 Thus the program to implement the the Logistic Regression Using Gradient Descent is written and verified using python programming.
